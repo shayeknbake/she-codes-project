@@ -1,5 +1,20 @@
+body {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  background-image: radial-gradient(
+    circle,
+    #1cc2af 0%,
+    #00dcc2 28%,
+    #0ddec2 32%,
+    #01443a 100%
+  );
+  color: #fff;
+  font-weight: 200;
+  font-family: Arial, Helvetica, sans-serif;
+}
 h1 {
-  color: blue;
+  color: #fff;
 }
 
 img {
@@ -22,9 +37,30 @@ li {
   margin: 20px;
   max-width: 600;
   border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.15);
 }
 
 .temp {
   font-size: 70px;
 }
-
+.weather_forecast_icon {
+  width: 30vmin;
+  align-self: center;
+}
+.weather_forecast {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.weather_forecast_item {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  margin: 0 10px 10px;
+  padding: 30px;
+  box-sizing: border-box;
+  min-width: 150px;
+  width: calc(20% - 20px);
+  flex-grow: 1;
+}
