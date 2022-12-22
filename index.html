@@ -11,6 +11,7 @@
       integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
       crossorigin="anonymous"
     />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -31,14 +32,14 @@
             <div class="col-3">
               <input
                 type="submit"
-                value="search"
+                value="Search"
                 class="form-control btn btn-info shadow-sm"
               />
               <button
                 class="btn btn-success w-100"
                 id="current-location-button"
               >
-                Current
+                Use Current Location
               </button>
             </div>
           </div>
@@ -50,16 +51,16 @@
         </ul>
         <div class="row">
           <div class="col-6">
-            <div class="clearfix">
+            <div class="d-flex weather-temperature">
               <img
                 src="images/partial-cloud-2.png"
                 alt="partialy cloudy"
                 class="weather_forecast_icon"
                 width="100px"
                 alt="cloudy icon"
-                class="weather-icon float-left"
+                class="weather-icon"
               />
-              <div class="float-left">
+              <div class="">
                 <span class="temp" id="temp">19</span>
                 <span class="units">
                   <a href="#" id="celsius-link">ºC</a> |
@@ -83,7 +84,7 @@
               alt="sunny"
               class="weather_forecast_icon"
             />
-            <h3 class="weather_forecast_day">Day</h3>
+            <h3 class="weather_forecast_day">Sunday</h3>
             <p class="weather_forecast_temperature">
               <span class="value">+25</span>&deg;C
             </p>
@@ -94,7 +95,7 @@
               alt="Sunny"
               class="weather_forecast_icon"
             />
-            <h3 class="weather_forecast_day">Day</h3>
+            <h3 class="weather_forecast_day">Monday</h3>
             <p class="weather_forecast_temperature">
               <span class="value">+25</span>&deg;C
             </p>
@@ -105,7 +106,7 @@
               alt="partialy cloudy"
               class="weather_forecast_icon"
             />
-            <h3 class="weather_forecast_day">Day</h3>
+            <h3 class="weather_forecast_day">Tuesday</h3>
             <p class="weather_forecast_temperature">
               <span class="value">+25</span>&deg;C
             </p>
@@ -116,7 +117,7 @@
               alt="partialy cloudy"
               class="weather_forecast_icon"
             />
-            <h3 class="weather_foreecast_day">Day</h3>
+            <h3 class="weather_foreecast_day">Wednesday</h3>
             <p class="weather_forecast_temperature">
               <span class="value">+25</span>&deg;C
             </p>
@@ -127,16 +128,20 @@
               alt="partialy cloudy"
               class="weather_forecast_icon"
             />
-            <h3 class="weather_forecast_day">Day</h3>
+            <h3 class="weather_forecast_day">Thursday</h3>
             <p class="weather_forecast_temperature">
               <span class="value">+25</span>&deg;C
             </p>
           </article>
         </div>
       </div>
-      <a href="https://github.com/shayeknbake/she-codes-project">
-        Visit my Github Here:</a
+      <a
+        href="https://github.com/shayeknbake/she-codes-project"
+        target="_blank"
       >
+        Open-Source code:</a
+      >
+      By: Shayna Easton
     </div>
     <script src="actions.js"></script>
   </body>
