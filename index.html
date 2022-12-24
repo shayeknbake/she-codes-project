@@ -17,7 +17,7 @@
   <body>
     <div class="container">
       <div class="weather-app">
-        <form class="search-form" id="search-form">
+        <form class="search-form" id="city-input">
           <div class="row">
             <div class="col-9">
               <input
@@ -25,7 +25,7 @@
                 placeholder="Type a city.."
                 autofocus="on"
                 autocomplete="off"
-                id="city-input"
+                id="app-city"
                 class="form-control shadow-sm"
               />
             </div>
@@ -61,7 +61,7 @@
                 class="weather-icon"
               />
               <div class="">
-                <span class="temp" id="temp">19</span>
+                <span class="temp" id="temperature-today">19</span>
                 <span class="units">
                   <a href="#" id="celsius-link">ºC</a> |
                   <a href="#" id="fahrenheit-link">ºF</a>
