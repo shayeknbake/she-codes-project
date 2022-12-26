@@ -32,13 +32,13 @@ function search(event) {
 
 function convertToFahrenheit(event) {
   event.preventDefault();
-  let temperatureElement = document.querySelector("#temperature");
+  let temperatureElement = document.querySelector("#temperature-today");
   temperatureElement.innerHTML = 66;
 }
 
 function convertToCelsius(event) {
   event.preventDefault();
-  let temperatureElement = document.querySelector("#temperature");
+  let temperatureElement = document.querySelector("#temperature-today");
   temperatureElement.innerHTML = 19;
 }
 
@@ -48,7 +48,7 @@ let currentTime = new Date();
 dateElement.innerHTML = formatDate(currentTime);
 
 // Feature #2
-let searchForm = document.querySelector("#search-form");
+let searchForm = document.querySelector(".search-form");
 searchForm.addEventListener("submit", search);
 
 // Bonus Feature
